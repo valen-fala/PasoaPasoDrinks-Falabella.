@@ -1,0 +1,33 @@
+h1{
+    font-family:'Oswald', sans-serif;
+    font-size: 60px;
+}
+    
+h2{
+    font-family:'Oswald', sans-serif;
+    font-size: 40px;
+}
+body{
+    background-color: orangered;
+}
+div ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:end;
+    color: antiquewhite;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.bordesredondeados{
+    border-radius: 20%;
+}
+.space{
+    height: 4rem;
+    color: white;
+}
+.altura{
+    height: max-content;
+    }
+
