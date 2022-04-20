@@ -10,8 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        h1{
+            animation:bounceInDown;
+            animation-duration: 3s;
+        }
+        h2{
+            animation: flash;
+            animation-duration: 2s;
+        }
+    </style>
 </head>
-<body>
+<body class="colorfondo">
     <header class="container flex-d justify-content-md-center altura">
       <div class="row">
         <h1>Productos</h1>
@@ -21,7 +32,7 @@
 <main class="container">
     <div class="row">
         <div class="col-md-4">
-            <H2>CERVEZAS</H2>
+            <h2>CERVEZAS</H2>
             <p>Santa Fe 500cc</p>
             <p>Brahama 500cc</p>
             <p>Imperial Golden 500cc</p>

@@ -1,33 +1,100 @@
-h1{
+@media screen and (min-width: 1024px)
+{
+    h1{
     font-family:'Oswald', sans-serif;
     font-size: 60px;
-}
-    
-h2{
+    }
+
+    h2{
     font-family:'Oswald', sans-serif;
     font-size: 40px;
-}
-body{
-    background-color: orangered;
-}
-div ul a{
+    }
+    body{
+    background-image: linear-gradient(orange, white)   
+    }
+    body footer{
+        background-image: url(/images/img.fondocervezafooter.jpg);
+    }
+    div ul a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:end;
     color: antiquewhite;
-}
-p{
+    }
+    p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    color: white;
-}
-.bordesredondeados{
+    color: black;
+    }
+     .bordesredondeados{
     border-radius: 20%;
-}
-.space{
+    border-style: dashed;
+    }
+    .space{
     height: 4rem;
     color: white;
-}
-.altura{
+    }
+    .altura{
     height: max-content;
     }
+    .colornegro{
+        color: black;
+    }
+    .sombra_h2 :hover{
+        transform:rotateX(6px) ;
+    }
+}
+    
+@media only screen and (max-width: 320px){
+    h1{
+        font-family:'Oswald', sans-serif;
+        font-size: 40px;
+    }
+    
+    h2{
+        font-family:'Oswald', sans-serif;
+        font-size: 20px;
+    }
+    body{
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    div ul a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: antiquewhite;
+        display: flex;
+        justify-content:space-around;
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color: white;
+    }
+    .bordesredondeados{
+        border-radius: 20%;
+        border-style: dashed;
+    }
+    .space{
+        height: 4rem;
+        color: white;
+    }
+    .altura{
+        height: max-content;
+    }
+    .mobile{
+        width: 300px;
+        height: 150px;
+        margin right: 0%;
+        margin-left: 0%;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    
+}
+
+   
+
+    
 
